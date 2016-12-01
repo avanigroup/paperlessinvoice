@@ -1,7 +1,7 @@
 1. Login Screen
 2. Customer Registration Form
 3. Retailer Registration Form
-4. Admin Console To Edit Customers and Retailer details
+4. Admin Console To Edit Customers and Retailer details.
 5. Retailer adding Products to its Store
 6. Customer Home Page
 7. Retailer Home Page
