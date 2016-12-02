@@ -10,6 +10,7 @@ CREATE TABLE Customer (
 	CusotmerCity varchar2(100),
 	RecordCreateDate DATE,
 	RecordModifiedDate DATE,
+	STATUS NUMBER,
 	constraint CUSTOMER_PK PRIMARY KEY (CustomerID));
 CREATE TABLE Retailer (
 	RetailerID varchar2(100),
@@ -22,6 +23,7 @@ CREATE TABLE Retailer (
 	BranchContactNumber varchar2(100),
 	RecordCreateDate DATE,
 	RecordModifiedDate DATE,
+	STATUS NUMBER,
 	constraint RETAILER_PK PRIMARY KEY (RetailerID));
 CREATE TABLE ProductDetails (
 	ProductID varchar2(100),
@@ -34,6 +36,7 @@ CREATE TABLE ProductDetails (
 	ProductWarranty varchar2(100),
 	ProductRegisrationDate DATE,
 	ProductModifiedDate DATE,
+	STATUS NUMBER,
 	constraint PRODUCTDETAILS_PK PRIMARY KEY (ProductID));
 CREATE TABLE TransactionDetails (
 	BillNo varchar2(100),
@@ -46,6 +49,7 @@ CREATE TABLE TransactionDetails (
 	TransactionRemarks varchar2(100),
 	RecordCreateDate DATE,
 	RecordModifiedDate DATE,
+	STATUS NUMBER,
 	constraint TRANSACTIONDETAILS_PK PRIMARY KEY (BillNo));
 
 CREATE TABLE BillBreakUpDetails (
